@@ -7,16 +7,16 @@ settings:
 dependencies:
   next:
     specifier: canary
-    version: 15.0.0-canary.25(react-dom@19.0.0-rc-6f23540c7d-20240528)(react@19.0.0-rc-6f23540c7d-20240528)
+    version: 15.0.0-canary.25(react-dom@19.0.0-rc-6230622a1a-20240610)(react@19.0.0-rc-6230622a1a-20240610)
   next-auth:
-    specifier: 5.0.0-beta.19
-    version: 5.0.0-beta.19(next@15.0.0-canary.25)(react@19.0.0-rc-6f23540c7d-20240528)
+    specifier: beta
+    version: 5.0.0-beta.19(next@15.0.0-canary.25)(react@19.0.0-rc-6230622a1a-20240610)
   react:
-    specifier: 19.0.0-rc-6f23540c7d-20240528
-    version: 19.0.0-rc-6f23540c7d-20240528
+    specifier: rc
+    version: 19.0.0-rc-6230622a1a-20240610
   react-dom:
-    specifier: 19.0.0-rc-6f23540c7d-20240528
-    version: 19.0.0-rc-6f23540c7d-20240528(react@19.0.0-rc-6f23540c7d-20240528)
+    specifier: rc
+    version: 19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-6230622a1a-20240610)
 
 devDependencies:
   '@types/node':
@@ -460,7 +460,7 @@ packages:
     hasBin: true
     dev: false
 
-  /next-auth@5.0.0-beta.19(next@15.0.0-canary.25)(react@19.0.0-rc-6f23540c7d-20240528):
+  /next-auth@5.0.0-beta.19(next@15.0.0-canary.25)(react@19.0.0-rc-6230622a1a-20240610):
     resolution: {integrity: sha512-YHu1igcAxZPh8ZB7GIM93dqgY6gcAzq66FOhQFheAdOx1raxNcApt05nNyNCSB6NegSiyJ4XOPsaNow4pfDmsg==}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
@@ -477,11 +477,11 @@ packages:
         optional: true
     dependencies:
       '@auth/core': 0.32.0
-      next: 15.0.0-canary.25(react-dom@19.0.0-rc-6f23540c7d-20240528)(react@19.0.0-rc-6f23540c7d-20240528)
-      react: 19.0.0-rc-6f23540c7d-20240528
+      next: 15.0.0-canary.25(react-dom@19.0.0-rc-6230622a1a-20240610)(react@19.0.0-rc-6230622a1a-20240610)
+      react: 19.0.0-rc-6230622a1a-20240610
     dev: false
 
-  /next@15.0.0-canary.25(react-dom@19.0.0-rc-6f23540c7d-20240528)(react@19.0.0-rc-6f23540c7d-20240528):
+  /next@15.0.0-canary.25(react-dom@19.0.0-rc-6230622a1a-20240610)(react@19.0.0-rc-6230622a1a-20240610):
     resolution: {integrity: sha512-V5oSgHCh7V/iKviqa5yBfKWANTzn/efGkqlJ8JxkNA2aNANJGg4TuiSck8ADcbWKe1Gkghr8atOmiSf/GeNnTw==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -508,9 +508,9 @@ packages:
       caniuse-lite: 1.0.30001632
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 19.0.0-rc-6f23540c7d-20240528
-      react-dom: 19.0.0-rc-6f23540c7d-20240528(react@19.0.0-rc-6f23540c7d-20240528)
-      styled-jsx: 5.1.6(react@19.0.0-rc-6f23540c7d-20240528)
+      react: 19.0.0-rc-6230622a1a-20240610
+      react-dom: 19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-6230622a1a-20240610)
+      styled-jsx: 5.1.6(react@19.0.0-rc-6230622a1a-20240610)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.25
       '@next/swc-darwin-x64': 15.0.0-canary.25
@@ -561,22 +561,22 @@ packages:
     resolution: {integrity: sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==}
     dev: false
 
-  /react-dom@19.0.0-rc-6f23540c7d-20240528(react@19.0.0-rc-6f23540c7d-20240528):
-    resolution: {integrity: sha512-TPZ7f0MYH/y51jHuPx0UdMH+WdZ7xX1UOcydOZWpjbjs2GXSgJFV2ilIm7FUSinHB6DSoGFVxhPqm1sa63IkbA==}
+  /react-dom@19.0.0-rc-6230622a1a-20240610(react@19.0.0-rc-6230622a1a-20240610):
+    resolution: {integrity: sha512-56G4Pum5E7FeGL1rwHX5IxidSJxQnXP4yORRo0pVeOJuu5DQJvNKpUwmJoftMP/ez0AiglYTY77L2Gs8iyt1Hg==}
     peerDependencies:
-      react: 19.0.0-rc-6f23540c7d-20240528
+      react: 19.0.0-rc-6230622a1a-20240610
     dependencies:
-      react: 19.0.0-rc-6f23540c7d-20240528
-      scheduler: 0.25.0-rc-6f23540c7d-20240528
+      react: 19.0.0-rc-6230622a1a-20240610
+      scheduler: 0.25.0-rc-6230622a1a-20240610
     dev: false
 
-  /react@19.0.0-rc-6f23540c7d-20240528:
-    resolution: {integrity: sha512-fo4drQwFP/R7ZJF5USwhn8YccEqOiH9C1ci5Jg7iM2+5pId8Bjcno+dDT/Cv5iYGmgwZzQIa+EwczD5IHEsmQA==}
+  /react@19.0.0-rc-6230622a1a-20240610:
+    resolution: {integrity: sha512-SMgWGY//7nO7F3HMuBfmC15Cr4vTe2tlpSCATfnz/wymSftDOKUqc+0smjRhcUeCFCc1zhOAWJ+N//U5CrmOzQ==}
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /scheduler@0.25.0-rc-6f23540c7d-20240528:
-    resolution: {integrity: sha512-5V2Aa+F16Qe+kT1zjwxPzBRoF6/xjw+LU9L2c1j2Dzw2GTiLEV8DxG3RAkRN8Lm5jlqbyK9ivRH3GGtipy+a6Q==}
+  /scheduler@0.25.0-rc-6230622a1a-20240610:
+    resolution: {integrity: sha512-GTIQdJXthps5mgkIFo7yAq03M0QQYTfN8z+GrnMC/SCKFSuyFP5tk2BMaaWUsVy4u4r+dTLdiXH8JEivVls0Bw==}
     dev: false
 
   /semver@7.6.2:
@@ -636,7 +636,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: false
 
-  /styled-jsx@5.1.6(react@19.0.0-rc-6f23540c7d-20240528):
+  /styled-jsx@5.1.6(react@19.0.0-rc-6230622a1a-20240610):
     resolution: {integrity: sha512-qSVyDTeMotdvQYoHWLNGwRFJHC+i+ZvdBRYosOFgC+Wg1vx4frN2/RG/NA7SYqqvKNLf39P2LSRA2pu6n0XYZA==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -650,7 +650,7 @@ packages:
         optional: true
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-6f23540c7d-20240528
+      react: 19.0.0-rc-6230622a1a-20240610
     dev: false
 
   /tslib@2.6.3:
