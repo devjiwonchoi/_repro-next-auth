@@ -1,3 +1,3 @@
-export default function Target() {
+export default function Repro() {
   return <p>should not be visible</p>
 }
